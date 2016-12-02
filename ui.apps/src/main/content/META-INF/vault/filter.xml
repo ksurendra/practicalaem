@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/practicalaem"/>
+
+    <filter root="/apps/sling/servlet/errorhandler"/>
+
+
+    <filter root="/conf/practicalaem" mode="merge"/>
+
+
+
+    <filter root="/etc/designs/practicalaem">
+        <include pattern="/etc/designs/practicalaem/jcr:content"/>
+
+    </filter>
+
+</workspaceFilter>
